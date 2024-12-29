@@ -65,6 +65,7 @@ const TaskDetail = ({ id, isOpen, onClose }) => {
           icon: "success",
           confirmButtonText: "Ok",
         });
+        reset({});
         onClose();
       }
     } catch (error) {
